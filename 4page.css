@@ -19,7 +19,7 @@ body{
   padding-left: 20px;
   padding-left: 20px;
   top:300px;
-  height: 450px;
+  height: 900px;
 }
 
 #frame2{
@@ -28,16 +28,16 @@ body{
   padding-left: 20px;
   padding-left: 20px;
   top:300px;
-  height: 450px;
+  height: 900px;
 }
 
 #frame3{
   position: relative;
   background-color:orange;
   padding-left: 20px;
-  padding-left: 20px;
+  padding-right: 20px;
   top:300px;
-  height: 450px;
+  height: 900px;
 }
 
 #frame4{
@@ -46,7 +46,7 @@ body{
   padding-left: 20px;
   padding-left: 20px;
   top:300px;
-  height: 450px;
+  height: 900px;
 }
 
 #frame5{
@@ -55,7 +55,7 @@ body{
   padding-left: 20px;
   padding-left: 20px;
   top:300px;
-  height: 450px;
+  height: 900px;
 }
 
 #footer{
@@ -64,5 +64,53 @@ body{
   padding-left: 20px;
   padding-left: 20px;
   top:300px;
-  height: 450px;
+  height: 900px;
+}
+input{
+  appearance:none;
+  -webkit-apperance:none;
+}
+#frame7{
+  background-color: gray;
+  height : 700px;
+  width : 300px;
+  padding-top : 20px;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 20px;
+  float : right;
+}
+.filebox label{
+  display : inline-block;
+  padding: .5em .75em;
+  color: #999; 
+  width : 250px;
+  font-size: inherit; 
+  line-height: normal; 
+  vertical-align: middle; 
+  background-color: #fdfdfd; 
+  cursor: pointer; 
+  border: 1px solid #ebebeb; 
+  border-bottom-color: #e2e2e2; 
+  border-radius: .25em; 
+} 
+.filebox input[type="file"] {  
+  position: absolute; 
+  width: 1px; 
+  height: 1px; 
+  padding: 0; 
+  margin: -1px; 
+  overflow: hidden; 
+  clip:rect(0,0,0,0);
+  border: 0;
+}
+.filebox input[type="submit"] {  
+  position: absolute; 
+  width: 1px; 
+  height: 1px; 
+  padding: 0; 
+  margin: -1px; 
+  overflow: hidden; 
+  clip:rect(0,0,0,0);
+  border: 0;
 }
