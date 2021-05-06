@@ -2,9 +2,8 @@
 <html>
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="./4page.css" rel="stylesheet" />
-    <script src="./frameSizeFixed.js"></script>
+  
+    <link href="./4page.css" rel="stylesheet" >
     <title>4page</title>
 </head>
 
@@ -67,21 +66,28 @@
         <div id="frame3">
             <br>
             <h1>Data Abstract</h1><hr>
-            <div id="frame7">짧은설명<br>설명설명설명설명<hr>
+            <div id="right_box">짧은설명<br>설명설명설명설명<hr>
                 <div class="filebox">
                     <label for="fb"><img src="image/upload.png" alt="upload" style=" width:100px;height:100px;">
                         <strong> upload</strong> </label>
                     <form><input multiple="multiple" type="file" name="upload_file" accept="image/*" id="fb"></form>
                 </div>
+                
                 <hr>
+                
                 <div class="filebox">
                     <label for="sm"><img src="image/transform.png" style="width:100px;height:100px;">
                     <strong>transform</strong></label>
                 <input type="submit" id="sm">
                 <hr></div>
+                <button class="download_box btn" onclick="alert('이미지저장완료!')" >download image</button><hr>
+                <button class="download_box btn" onclick="alert('엑셀저장완료!')" > download excel</button>
+            </div><div id="left_box">
+                <div class="in_left_box1">Uploaded Image</div> 
+                <div class="in_left_box2">Transformed Image</div>
+                <div class="in_left_box3">Transformed Data</div>
+                
             </div>
-            <br>
-            <br>
         </div>
         <div id="frame4">
             <br>
